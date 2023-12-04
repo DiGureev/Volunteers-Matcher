@@ -21,6 +21,7 @@ nav {
 
 nav a {
     text-decoration: none;
+    color: white;
 }
 
 #logo {
@@ -393,3 +394,46 @@ form input {
     margin: auto;
     font-size: 20px;
 }
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 15px;
+    }
+    #logo {
+        font-size: 10px;
+    }
+
+   #contact {
+    display: none;
+   }
+
+   .nav-links {
+    width: 30%;
+    font-size: 8px;
+    text-align: center;
+   }
+
+   #to-quiz, 
+   #to-search {
+    font-size: 10px;
+   }
+
+   #girl {
+    width: 20vw;
+    max-width: 300px;
+    top: 100px
+}
+
+    #dots{
+        top: 30px
+    }
+
+    #sheep {
+        bottom: 100px;
+    }
+
+    #phone {
+        width: 20vw;
+        z-index: +1;
+    }
+  }
