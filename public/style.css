@@ -1,0 +1,395 @@
+body {
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #FFBF40;
+    position: relative;
+    font-family: 'Roboto';
+}
+
+
+nav {
+    width: 100vw;
+    height: 40px;
+    background-color: #6D6E5D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: +2;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#logo {
+    font-family: 'Krona One', sans-serif;
+    color: white;
+    width: 20%;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    font-size: 16px;
+    list-style: none;
+    justify-content: space-between;
+    width: 40%;
+    max-width: 500px;
+    margin-right: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+li {
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+li img {
+    margin-right: 10px;
+    width: 20px;
+}
+
+#container {
+    position: relative;
+    background-color: white;
+    width: 80vw;
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#img-back {
+    position: absolute;
+    top: 28vh;
+    right: 0px;
+    display: block;
+    z-index: +1;
+}
+
+#img-back img {
+    width: 30vw;
+    max-width: 350px;
+}
+
+#img-stars {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    padding-top: 30px;
+}
+
+#img-stars img {
+    width: 10vw;
+    max-width: 150px;
+}
+
+#h1-img img {
+    width: 20%;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #0138B7;
+    font-size: 20px;
+}
+
+#underlined-text {
+    width: 40vw;
+    max-width: 500px;
+    margin: auto;
+    text-transform: capitalize;
+}
+
+#underlined-text p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+#underline {
+    max-width: 40%;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    right: 130px;
+}
+
+#to-quiz, #to-search {
+    display: block;
+    margin: auto;
+    width: 35vw;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    max-width: 400px;
+    border: 0px;
+    border-radius: 5px;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#to-quiz {
+    background-color: #FFBF40;
+    color: #6D6E5D;
+}
+
+#to-search {
+    background-color:#6D6E5D;
+    color: #FFBF40;
+}
+
+#to-quiz:hover {
+    cursor: pointer;
+}
+
+#to-search:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    color: #FFBF40;
+}
+
+#news {
+    width: 40vw;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    color: #6D6E5D;
+    font-size: 12px;
+}
+
+form {
+    width: 40vw;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input, #newsBtn {
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-size: 12px;
+
+}
+
+form input {
+    border: 1px solid #6D6E5D;
+    width: 60%;
+    padding: 0px 10px;
+}
+
+#newsBtn {
+    width: 35%;
+    background-color: #0138B7;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#newsBtn:hover {
+    cursor: pointer;
+}
+
+#girl, #dots, #sheep, #dots-search, #arrow {
+    position: absolute;
+    z-index: +1;
+}
+
+#girl {
+    width: 20vw;
+    max-width: 300px;
+}
+
+#dots {
+    right: 0px;
+    width: 20vw;
+    max-width: 200px;
+}
+
+#sheep {
+    right: 0px;
+    width: 20vw;
+    max-width: 300px;
+    bottom: 30px;
+}
+
+#quiz {
+   font-size: 30px;
+   margin-top: 50px;
+}
+
+#question {
+    font-size: 15px;
+    line-height: 1.7;
+    width: 40vw;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#withBtn {
+    width: 40vw;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.AnswerBtn {
+    display: block;
+    margin-bottom: 8px;
+    border: 1px solid #6D6E5D;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.AnswerBtn:hover {
+    cursor: pointer;
+}
+
+#phone {
+    position: fixed;
+    width: 10vw;
+    max-width: 300px;
+    bottom: 0px;
+}
+
+#dots-search {
+    position: fixed;
+    right: 0px;
+    width: 20vw;
+    max-width: 300px;
+    bottom: 0;
+}
+
+#arrow {
+    right: 20px;
+    top: 20px;
+    width: 8vw;
+    max-width: 200px;
+}
+
+#search-field input {
+    height: 30px;
+    border: 1px solid #6D6E5D;
+    width: 80%;
+    padding: 10px 20px;
+}
+
+#search-field input::placeholder {
+    font-family: 'Roboto';
+    font-size: 13px;
+    text-transform: capitalize;
+
+}
+
+#searchH1 {
+    margin-top: 30px;
+}
+
+
+#cards {
+    display: inline-block;
+    font-family: 'Roboto';
+    padding-left: 15px;
+    margin-top: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid #6D6E5D;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}
+
+.card a {
+    color: #6D6E5D;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.divImg {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.divImg img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+#result-container {
+    width: 40vw;
+    max-width: 600px;
+    margin: auto;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+#category {
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.linkDiv {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.linkDiv a {
+    color: #0138B7;
+    font-weight: 600;
+}
+
+.linkDiv a:visited {
+    color: #FFBF40;
+    font-weight: 600;
+}
+
+#cup {
+    margin-bottom: 20px;
+    max-width: 100px;
+}
+
+#nofound {
+    font-family: 'Krona One', sans-serif;
+    margin: auto;
+    font-size: 20px;
+}
